@@ -4,7 +4,6 @@
 
 :root {
     --global-font-size: 16px;
-    --global-bg: #fff;
     --font-color: #4c4948;
     --hr-border: #97bcfb;
     --hr-before-color: #6ea2f9;
@@ -12,13 +11,10 @@
     --search-input-color: #4c4948;
     --search-result-title: #4c4948;
     --preloader-bg: #37474f;
-    --preloader-color: #fff;
     --tab-border-color: #f0f0f0;
     --tab-botton-bg: #f0f0f0;
     --tab-botton-color: #1f2d3d;
     --tab-button-hover-bg: #dcdcdc;
-    --tab-button-active-bg: #fff;
-    --card-bg: #fff;
     --sidebar-bg: #f6f8fa;
     --btn-hover-color: #ff7242;
     --btn-color: #fff;
@@ -1553,12 +1549,6 @@ textarea {
     border-radius: 3px;
     background: var(--heo-post-blockquote-bg);
     transform: scale(.95)
-}
-
-#page .tag-cloud-list a {
-    padding: 5px 5px 5px 5px;
-    margin: 3px auto;
-    color: #fff !important;
 }
 
 #page .tag-cloud-list a:hover {
@@ -3100,7 +3090,7 @@ figure.gallery-group:hover p {
     -o-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
-}
+/* }
 
 figure.gallery-group img {
     position: relative;
@@ -3199,4 +3189,4 @@ figure.gallery-group .gallery-group-name:after {
     -o-transform: translate3d(-100%, 0, 0);
     -ms-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0)
-}
+} */
